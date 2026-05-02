@@ -8,5 +8,6 @@
   username = "kaoplo";
   homeDirectory = "/home/kaoplo";
 
-  stateVersion = "25.11";
+  stateVersion = "23.11";
+  };
 }
