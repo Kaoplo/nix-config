@@ -1,10 +1,9 @@
 { ... }:
 {
   imports = [
-    ./nixpkgs.nix
     ./bootloader.nix
-    ./hardware.nix
-    ./xserver.nix
+     ./hardware.nix
+     ./xserver.nix
     ./network.nix
     ./bluetooth.nix
     ./fonts.nix
@@ -13,12 +12,13 @@
     ./program.nix
     ./security.nix
     ./services.nix
-    ./steam.nix
+#    ./steam.nix
     ./system.nix
-    ./flatpak.nix
+#    ./flatpak.nix
     ./user.nix
     ./wayland.nix
     ./virtualization.nix
+    ./pkgs.nix
     # ./qmk.nix
   ];
 }

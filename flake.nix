@@ -21,7 +21,7 @@
       lib = nixpkgs.lib;
 
     in {
-      nixosConfiguration = {
+      nixosConfigurations = {
         vm = nixpkgs.lib.nixosSystem {
           inherit system;
           modules = [ ./hosts/vm ];
