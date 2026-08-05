@@ -3,7 +3,6 @@
   imports = [
     ./bootloader.nix
      ./hardware.nix
-     ./xserver.nix
     ./network.nix
     ./bluetooth.nix
     ./fonts.nix
@@ -14,6 +13,7 @@
     ./services.nix
 #    ./steam.nix
     ./system.nix
+     ./xserver.nix
 #    ./flatpak.nix
     ./user.nix
     ./wayland.nix

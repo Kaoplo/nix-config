@@ -1,7 +1,14 @@
-{ pkgs, ... }:
+{ config, pkgs, inputs, ... }:
+
 {
+  # 1. Import the module from the flake input
+  imports = [
+    inputs.hyprland.nixosModules.default
+  ];
+
   programs.hyprland = {
     enable = true;
+    package = inputs.hyprland.packages.${pkgs.stdenv.hostPlatform.system}.hyprland;
   };
 
   xdg.portal = {

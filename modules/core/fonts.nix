@@ -6,7 +6,7 @@
 
       defaultFonts = {
         monospace = [
-        #   "Maple Mono"
+          "Maple Mono"
           "JetBrainsMono Nerd Font"
         ];
         sansSerif = [ "Public Sans" ];
@@ -16,7 +16,7 @@
     };
 
     packages = with pkgs; [
-      # maple-mono-custom
+      maple-mono.NF
 
       noto-fonts
       public-sans
@@ -24,8 +24,9 @@
       nerd-fonts.jetbrains-mono
       nerd-fonts.symbols-only
 
-      # twemoji-color-font
+      twemoji-color-font
       noto-fonts-color-emoji
+      azeret-mono
     ];
   };
 }

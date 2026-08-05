@@ -5,11 +5,8 @@
       enable = true;
       xkb.layout = "us";
     };
+    displayManager.ly.enable = true;
 
-    displayManager.autoLogin = {
-      enable = true;
-      user = "${username}";
-    };
     libinput = {
       enable = true;
     };

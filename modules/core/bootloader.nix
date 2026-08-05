@@ -18,9 +18,6 @@
     vim
     gnumake
     kdePackages.kate
+    btop
   ];
-
-  services.displayManager.sddm.enable = true;
-  services.desktopManager.plasma6.enable = true;
-
 }

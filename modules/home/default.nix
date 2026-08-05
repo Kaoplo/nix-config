@@ -1,9 +1,20 @@
 {...}:
 {
     imports = [
-        ./browser.nix
-        ./shell.nix
-        ./pokego.nix
-        ./code.nix
+    ./browser.nix
+    ./shell.nix
+    ./pokego.nix
+    ./code.nix
+    ./waybar
+	./hyprland
+	./rofi/rofi.nix
+    ./discord.nix
+    ./steam.nix
+    ./swaync/swaync.nix
+    ./obsidian.nix
+    ./packages
+    ./theme.nix
+    ./xdg-mimes.nix
+    ./sway-osd.nix
     ];
 }
